@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Ujjwal Dance Academy
+    block scripts
+      script(src='/jquery.js')
+    block style
+      // style block is empty, can be overridden in child templates
+  body
+    nav#navbar
+      ul 
+        div#logo
+          img(src="/static/images/logo.png")
+          | UDA
+        li #[a(href="/") Home] 
+        li #[a(href="/") About]
+        li #[a(href="/") Contact]
+        li #[a(href="/") Services]
+        li #[a(href="/") info]
+    block content
+    block contact
+      
+    
+
+    footer#foot 
+      | Copyright ©2023 UjjwalDanceAcademy.com All Rights Reserved

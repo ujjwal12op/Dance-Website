@@ -1,0 +1,69 @@
+doctype html
+html(lang="en")
+  head
+    style 
+        include ../static/style.css
+        link(rel='stylesheet', href='https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap')
+        link(rel='stylesheet', href='https://fonts.googleapis.com/css2?family=Yeon+Sun&display=swap')
+
+
+
+
+    title My First HTML Page
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/images/logo.png")
+                | UDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About]
+            li #[a(href="/") Contact]
+            li #[a(href="/") Services]
+            li #[a(href="/") info]
+    section#intro
+        div Welcome to Ujjwal Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+    
+    section#mission
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src='/static/images/1.png')
+
+                div.card-content
+                    p Best dance academy bro!
+        div.card
+            h3 Dancing like you want
+            div.card-box
+                div.card-img
+                    img(src='/static/images/2.png')
+
+                div.card-content
+                    p Best dance academy bro!
+        div.card
+            h3 Our Teachers
+            div.card-box
+                div.card-img
+                    img(src='/static/images/3.png')
+
+                div.card-content
+                    p Best dance academy bro!
+    
+    
+    section#sponsor
+        h2 Our Sponsors 
+        div#sponsors
+            img(src='/static/images/logo1.png' alt="Sponsor image!" ,class="spID")    
+            img(src='/static/images/logo2.png' alt="Sponsor image!" ,class="spID")    
+            img(src='/static/images/logo3.png' alt="Sponsor image!" ,class="spID")    
+            img(src='/static/images/logo4.png' alt="Sponsor image!" ,class="spID")    
+    footer#foot 
+        | Copyright ©2023 UjjwalDanceAcademy.com All Rights Reserved
+    script 
+        inclide ../static/index.js 
+    

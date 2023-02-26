@@ -1,0 +1,34 @@
+1) npm init
+version: (1.0.0)                                                                                                                                                                                                                             
+description: This is a dance platform website created by ujjwal!
+entry point: (app.js)
+test command:                                                                                                                                                                                                                                
+git repository:                                                                                                                                                                                                                              
+keywords:                                                                                                                                                                                                                                    
+author: Ujjwal                                                                                                                                                                                                                               
+license: (ISC)                                                                                                                                                                                                                               
+About to write to C:\Users\ujjwa\Desktop\Backend\Express\Projects\Dance Website\package.json:
+
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "This is a dance platform website created by ujjwal!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ujjwal",
+  "license": "ISC"
+}
+
+
+2)
+
+Npm install express
+
+3) npm install pug
+
+4)app.use(express.static('static',options))
+
+5) Create static folder and inside the view keep all the templates
+6) Inside the view keep the index.pug file
